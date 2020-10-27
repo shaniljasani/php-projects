@@ -33,7 +33,7 @@
             
             $date3 = new DateTime("now", new DateTimeZone('America/Los_Angeles'));
             $tz3 = $date3->getTimezone();
-            echo  $date->format('h:i a');
+            echo  $date3->format('h:i a');
             
             ?>
         </h1>
