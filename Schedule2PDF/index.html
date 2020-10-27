@@ -1,0 +1,183 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>[TEST] Schedule Tool - Camp CONNECT</title>
+    
+</head>
+<body>
+
+    <div id="content">
+        <h3>Hello, this is a H3 tag</h3>
+   
+       <p>a pararaph</p>
+
+       <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> "01:30 AM <br/> 02:15 AM" </td>
+                    <td> "Check-In & Cabin Group Opening Activity" </td>
+                    <!--<td> $family_link </td>-->
+                    <td><a href=  "$family_link" > $family_link </a></td>
+                    <!--<td><a href="link.campconnect.co/zoomA">link.campconnect.co/zoomA</a></td>-->
+                </tr>
+                
+                <tr>
+                    <td> "02:20 AM <br/> 02:40 AM" </td>
+                    <td> "EXPLORE Faculty Session with Family" </td>
+                    <td><a href="link.campconnect.co/zoomB">link.campconnect.co/zoomB</a></td>
+                </tr>
+                
+                <tr>
+                    <td> "02:45 AM <br/> 04:00 AM" </td>
+                    <td> "EXPLORE Group Session" </td>
+                    <td><a href="link.campconnect.co/zoomC">link.campconnect.co/zoomC</a></td>
+                </tr>
+                
+                <tr>
+                    <td> "04:00 AM <br/> 04:25 AM" </td>
+                    <td>BREAK TIME</td>
+                    <td>NO LINK <br/> Please spend some time off-screen <br/> to rest your eyes and stretch your body</a></td>
+                </tr>
+                
+                <tr>
+                    <td> "04:30 AM <br/> 04:40 AM" </td>
+                    <td> "CREATE Activity " </td>
+                    <td><a href="link.campconnect.co/zoomB">link.campconnect.co/zoomB</a></td>
+                </tr>
+                
+                <tr>
+                    <td> "04:40 AM <br/> 06:00 AM" </td>
+                    <td> "CREATE Workshop" </td>
+                    <td><a href="link.campconnect.co/zoomD">link.campconnect.co/zoomD</a></td>
+                </tr>
+                
+                <tr>
+                    <td> "06:00 AM <br/> 06:25 AM" </td>
+                    <td>BREAK TIME</td>
+                    <td>NO LINK <br/> Please spend some time off-screen <br/> to rest your eyes and stretch your body</a></td>
+                </tr>
+                
+                <tr>
+                    <td> "06:30 AM <br/> 07:35 AM" </td>
+                    <td> "GATHER Community" </td>
+                    <td><a href="link.campconnect.co/zoomB">link.campconnect.co/zoomB</a></td>
+                </tr>
+                
+                <tr>
+                    <td> "07:35 AM <br/> 08:00 AM" </td>
+                    <td> "Cabin Group Closing Session" </td>
+                    <td><a href="link.campconnect.co/zoomA">link.campconnect.co/zoomA</a></td>
+                </tr>
+
+            </tbody>
+            <!--<tfoot>-->
+            <!--	<tr>-->
+            <!--		<td colspan="2"></td>-->
+            <!--		<td>100.00</td>-->
+            <!--	</tr>-->
+            <!--</tfoot>-->
+        </table>
+
+
+   </div>
+   <div id="editor"></div>
+   <button id="cmd">Generate PDF</button>
+
+
+    <form id="scheduleExport">
+        <div class="content">
+        <div id="scheduleContainer">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> "01:30 AM <br/> 02:15 AM" </td>
+                            <td> "Check-In & Cabin Group Opening Activity" </td>
+                            <!--<td> $family_link </td>-->
+                            <td><a href=  "$family_link" > $family_link </a></td>
+                            <!--<td><a href="link.campconnect.co/zoomA">link.campconnect.co/zoomA</a></td>-->
+                        </tr>
+                        
+                        <tr>
+                            <td> "02:20 AM <br/> 02:40 AM" </td>
+                            <td> "EXPLORE Faculty Session with Family" </td>
+                            <td><a href="link.campconnect.co/zoomB">link.campconnect.co/zoomB</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td> "02:45 AM <br/> 04:00 AM" </td>
+                            <td> "EXPLORE Group Session" </td>
+                            <td><a href="link.campconnect.co/zoomC">link.campconnect.co/zoomC</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td> "04:00 AM <br/> 04:25 AM" </td>
+                            <td>BREAK TIME</td>
+                            <td>NO LINK <br/> Please spend some time off-screen <br/> to rest your eyes and stretch your body</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td> "04:30 AM <br/> 04:40 AM" </td>
+                            <td> "CREATE Activity " </td>
+                            <td><a href="link.campconnect.co/zoomB">link.campconnect.co/zoomB</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td> "04:40 AM <br/> 06:00 AM" </td>
+                            <td> "CREATE Workshop" </td>
+                            <td><a href="link.campconnect.co/zoomD">link.campconnect.co/zoomD</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td> "06:00 AM <br/> 06:25 AM" </td>
+                            <td>BREAK TIME</td>
+                            <td>NO LINK <br/> Please spend some time off-screen <br/> to rest your eyes and stretch your body</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td> "06:30 AM <br/> 07:35 AM" </td>
+                            <td> "GATHER Community" </td>
+                            <td><a href="link.campconnect.co/zoomB">link.campconnect.co/zoomB</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td> "07:35 AM <br/> 08:00 AM" </td>
+                            <td> "Cabin Group Closing Session" </td>
+                            <td><a href="link.campconnect.co/zoomA">link.campconnect.co/zoomA</a></td>
+                        </tr>
+
+                    </tbody>
+                    <!--<tfoot>-->
+                    <!--	<tr>-->
+                    <!--		<td colspan="2"></td>-->
+                    <!--		<td>100.00</td>-->
+                    <!--	</tr>-->
+                    <!--</tfoot>-->
+                </table>
+            </div>
+        </div>
+    </div>
+        <input type="button" value="Print Div Contents" id="btnPrint" />
+        <button id="cmd">Generate PDF</button>
+    </form>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script type="text/javascript" src="js/print.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+</body>
+</html>
