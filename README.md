@@ -6,4 +6,4 @@ Hi, thanks for checking this out. There's a few random projects in here from a r
 - [x] [Schedule2PDF](/Schedule2PDF)
 - [ ] [TEDNomination-Emails](/TEDNomination-Emails)
 - [ ] [WTHTech-TimeZones](/WTHTech-TimeZones)
-- [ ] [WhereToBuy] (/WhereToBuy)
+- [ ] [WhereToBuy](/WhereToBuy)
